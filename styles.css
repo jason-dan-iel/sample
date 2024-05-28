@@ -1,0 +1,111 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.leaderboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-options {
+  display: flex;
+  align-items: center;
+}
+
+.filter-options label {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.filter-options select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Leaderboard Table */
+.leaderboard-table {
+  overflow-x: auto;
+}
+
+.leaderboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.leaderboard-table th {
+  background-color: #555;
+  color: #fff;
+}
+
+.leaderboard-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.leaderboard-table tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Calmar Ratio */
+.leaderboard-table .calmar-ratio {
+  display: flex;
+  align-items: center;
+}
+
+.leaderboard-table .calmar-ratio span {
+  margin-left: 5px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Buy Button */
+.leaderboard-table .buy-button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.leaderboard-table .buy-button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+}
